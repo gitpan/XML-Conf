@@ -1,17 +1,25 @@
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         XML-Conf
-version:      0.04
-version_from: lib/XML/Conf.pm
-installdirs:  site
+---
+abstract: 'a simple configuration module based on XML'
+author:
+  - 'Jonas B. Nielsen <jonasbn@cpan.org>'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060'
+license: artistic
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: XML-Conf
 requires:
-    Tie::DeepTied:                 0
-    Data::Dumper:                  0
-    Tie::Tools:                    1.05
-    XML::Simple:                   1.04
-    Test::Harness:                 0
-    Tie::Hash:                     0
-    Test::More:                    0
-    Carp:                          0
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.12
+  Carp: 0
+  Data::Dumper: 0
+  Test::Harness: 0
+  Test::More: 0
+  Tie::DeepTied: 0
+  Tie::Hash: 0
+  Tie::Tools: 1.05
+  XML::Simple: 1.04
+  perl: 5.008
+version: 0.05

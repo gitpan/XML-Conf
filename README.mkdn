@@ -1,0 +1,21 @@
+XML::Conf - configuration module based on XML
+
+MOTIVATION
+
+This is originally the work of Ariel Brosh, a member of Israel.pm and author of several contributions to CPAN. He has unfortunately passed away and have left behind several Perl modules where this is just one of them.
+
+I volunteered to contribute further to the development of the module, but it is still kept under the name of Ariel Brosh.
+
+jonasbn, Copenhagen 2003
+
+AUTHORS
+
+- Jonas B. Nielsen (current maintainer)
+
+- Ariel Brosh, original author
+
+COPYRIGHT AND LICENSE
+
+Ariel Brosh
+
+XML::Conf is free software and is released under the Artistic License.
