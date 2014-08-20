@@ -27,9 +27,9 @@ my %WriteMakefileArgs = (
     "Tie::DeepTied" => 0,
     "Tie::Hash" => 0,
     "Tie::Tools" => "1.05",
-    "XML::Simple" => "1.04"
+    "XML::Simple" => "2.20"
   },
-  "VERSION" => "0.05",
+  "VERSION" => "0.06",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -44,7 +44,7 @@ my %FallbackPrereqs = (
   "Tie::DeepTied" => 0,
   "Tie::Hash" => 0,
   "Tie::Tools" => "1.05",
-  "XML::Simple" => "1.04"
+  "XML::Simple" => "2.20"
 );
 
 

@@ -20,6 +20,6 @@ requires:
   Tie::DeepTied: 0
   Tie::Hash: 0
   Tie::Tools: 1.05
-  XML::Simple: 1.04
+  XML::Simple: 2.20
   perl: 5.008
-version: 0.05
+version: 0.06
